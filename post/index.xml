@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on takuya.memo</title>
+    <link>https://takuyaw-w.github.io/post/</link>
+    <description>Recent content in Posts on takuya.memo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://takuyaw-w.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Commit</title>
+      <link>https://takuyaw-w.github.io/post/first-commit/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://takuyaw-w.github.io/post/first-commit/</guid>
+      <description>GitHub Pages + Hugoでブログを始めてみる
+参考資料  GitHub PagesとHugoでブログをつくった Hugo + GitHub Pages + 無料で洒落たブログを30分で作る Github pages + Hugoでブログ構築  </description>
+    </item>
+    
+  </channel>
+</rss>
