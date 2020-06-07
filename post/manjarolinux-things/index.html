@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>使用するOSをUbuntuからManjaroに変更した。</title>
+        
+        <style>
+
+    html body {
+        font-family: '', sans-serif;
+        background-color: #eee;
+    }
+
+    :root {
+        --accent: #0077AA;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://takuyaw-w.github.io/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.71.1" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">使用するOSをUbuntuからManjaroに変更した。</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/takuyaw-w/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/takuyaw_w"><i class="fa fa-twitter"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>使用するOSをUbuntuからManjaroに変更した。</h2>
+        <h5>June 7, 2020</h5>
+        
+<a href="https://takuyaw-w.github.iotags/linux"><kbd class="item-tag">Linux</kbd></a>
+
+<a href="https://takuyaw-w.github.iotags/manjaro"><kbd class="item-tag">Manjaro</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><ul>
+<li><a href="#os%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E7%90%86%E7%94%B1%E8%83%8C%E6%99%AF">OSを変更した理由・背景</a></li>
+<li><a href="#%E3%81%AA%E3%81%9Cmanjaro%E3%81%AA%E3%81%AE%E3%81%8B">なぜManjaroなのか</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E6%84%9F">使用感</a>
+<ul>
+<li><a href="#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6">インストールに関して</a></li>
+<li><a href="#%E5%9B%B0%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8">困ったこと</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99">参考資料</a></li>
+</ul>
+<h2 id="osを変更した理由背景">OSを変更した理由・背景</h2>
+<p>4月23日に、Ubuntu 20.04 LTSがリリースされた。<br>
+リリースに伴い、使用していたUbuntuのアップデートを行ったところ、snapを利用しインストールしていたソフトの入力周りに不具合が生じた。<br>
+aptを利用し、入れ直すなどを行って入力周りの不具合は解消できたが、バージョンアップ毎にこういった問題が起こるとなると少し不満。<br>
+また、Ubuntuの色合いは個人的に趣味に合わないため、気分転換も含めて別のLinux Distributionを見てみることにした。</p>
+<h2 id="なぜmanjaroなのか">なぜManjaroなのか</h2>
+<p>メジャーなDibian、Fedora、Slackwareに含まれない、独自の開発系統を持ったLinux Distributionである、Arch Linuxというのが良さげというのを聞いた。</p>
+<p>Arch Linuxの利点や特徴については後述の参考資料に詳細なページへのリンクを記載するとして、自分がその中で響いたのは、<strong>ローリング・リリースを採用しており、最新バージョンのソフトウェアが使用できる</strong>という点だった。</p>
+<p>上記よりArch Linuxが気になっていたが、導入の難易度が高く、自分の力量では心が挫けるのは目に見えていたため、<br>
+Arch系かつインストールが簡単であるManjaroを選択した。<br>
+見た目に関しても好みだった。</p>
+<p>このManjaro、安定性についても気にかけたDistributionのようで、Arch Linuxとリポジトリを共有せず、独自のリポジトリを運用しているため、ド最新（今の現場でときたま聞く言葉）のソフトウェアを使用できるわけではないようだ。<br>
+といっても、概ね2週間程度のラグのため問題はとくに感じられない。</p>
+<h2 id="使用感">使用感</h2>
+<h3 id="インストールに関して">インストールに関して</h3>
+<p>Ubuntu18.04をインストールするときとほぼ変わらないぐらい簡単だった。<br>
+Arch Linuxのインストールガイドを見てビビっていたので、かなり驚いた。</p>
+<h3 id="困ったこと">困ったこと</h3>
+<p>日本語の設定がいろんなサイトで書かれているので、どれを参照すればよいのかイマイチだった。<br>
+Manjaroの公式Wikiにも日本語設定については書かれているんだけど、記載されている内容のパッケージが若干古かった。<br>
+以下は、自分用に日本語設定時に行ったことを記載しておく。</p>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo pacman -S fcitx-im fcitx-mozc
+</code></pre></div><p>~/.xprofileに以下を記載</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ja_JP.UTF-8&#34;</span>
+export XMODIFIERS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;@im=fcitx&#34;</span>
+export XMODIFIER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;@im=fcitx&#34;</span>
+export GTK_IM_MODULE<span style="color:#f92672">=</span>fcitx
+export QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
+export DefaultIMModule<span style="color:#f92672">=</span>fcitx
+</code></pre></div><p>~/.bashrcに以下を記載</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export GTK_IM_MODULE<span style="color:#f92672">=</span>fcitx
+export XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f92672">=</span>fcitx
+export QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
+</code></pre></div><p>ログアウト、または再起動を行う。</p>
+<hr>
+<h2 id="参考資料">参考資料</h2>
+<ul>
+<li><a href="https://manjaro.org/">Manjaro - enjoy the simplicity</a></li>
+<li><a href="https://wiki.manjaro.org/index.php?title=Main_Page">Manjaro Linux - wiki</a></li>
+<li><a href="https://wiki.archlinux.jp/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8">ArchWiki</a></li>
+<li><a href="https://pc-freedom.net/review/manjaro-linux-%E3%81%A3%E3%81%A6%E3%81%AA%E3%82%93%E3%81%98%E3%82%83%E3%82%8D%EF%BC%9F/">Manjaro Linux ってなんじゃろ？ | PC-FREEDOM</a></li>
+<li><a href="https://jp.quora.com/%E3%81%AA%E3%81%9CUbuntu%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8FManjaro-Linux%E3%81%AE%E3%81%BB%E3%81%86%E3%81%8C%E6%9C%80%E8%BF%91%E4%BA%BA%E6%B0%97%E3%81%A7%E3%82%AA%E3%82%B9%E3%82%B9%E3%83%A1%E3%81%95%E3%82%8C">なぜUbuntuではなくManjaro Linuxのほうが最近人気でオススメされるんですか？ - Quora</a></li>
+</ul>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">takuya.memo © All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

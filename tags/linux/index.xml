@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>takuya.memo</title>
-    <link>https://takuyaw-w.github.io/</link>
-    <description>Recent content on takuya.memo</description>
+    <title>Linux on takuya.memo</title>
+    <link>https://takuyaw-w.github.io/tags/linux/</link>
+    <description>Recent content in Linux on takuya.memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://takuyaw-w.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>swapman</title>
-      <link>https://takuyaw-w.github.io/project/swapman/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://takuyaw-w.github.io/project/swapman/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>使用するOSをUbuntuからManjaroに変更した。</title>
@@ -46,25 +37,6 @@ Manjaroの公式Wikiにも日本語設定については書かれているんだ
 export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx ~/.bashrcに以下を記載
 export GTK_IM_MODULE=fcitx export XMODIFIERS=@im=fcitx export QT_IM_MODULE=fcitx ログアウト、または再起動を行う。
  参考資料  Manjaro - enjoy the simplicity Manjaro Linux - wiki ArchWiki Manjaro Linux ってなんじゃろ？ | PC-FREEDOM なぜUbuntuではなくManjaro Linuxのほうが最近人気でオススメされるんですか？ - Quora  </description>
-    </item>
-    
-    <item>
-      <title>First Commit</title>
-      <link>https://takuyaw-w.github.io/post/first-commit/</link>
-      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://takuyaw-w.github.io/post/first-commit/</guid>
-      <description>GitHub Pages + Hugoでブログを始めてみる
-参考資料  GitHub PagesとHugoでブログをつくった Hugo + GitHub Pages + 無料で洒落たブログを30分で作る Github pages + Hugoでブログ構築  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://takuyaw-w.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://takuyaw-w.github.io/about/</guid>
-      <description>備忘録とか、その他</description>
     </item>
     
   </channel>
