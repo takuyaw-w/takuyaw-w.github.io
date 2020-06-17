@@ -6,10 +6,24 @@
     <description>Recent content in Linux on takuya.memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://takuyaw-w.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manjaro Linuxをインストールしたら行うこと</title>
+      <link>https://takuyaw-w.github.io/post/manjaro-todo/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://takuyaw-w.github.io/post/manjaro-todo/</guid>
+      <description>ミラーサーバーの変更 pacmanの出力のカラー化 リポジトリとソフトウェアのアップデート 日本語入力の設定  Fcitx、mozcのインストール ~/.xprofileに追記   AURヘルパーのインストール ホームディレクトリ配下のディレクトリ名を英語表記に変更  必要なソフトのインストール 変更コマンド   フォントのインストール  コード用   参考資料  一週間ぐらい使ってみて、特別不便に感じないので、常用する予定。
+環境構築に関して、いろんなサイトに掲載されているけど、自分用に書いておきます。
+気が向いたときに更新する。
+どこか適当なところでdotfilesとか作って管理する予定&amp;hellip;
+ミラーサーバーの変更 sudo pacman-mirrors --fasttrack &amp;amp;&amp;amp; sudo pacman -Syy pacmanの出力のカラー化 これは気分。
+sudo nano /etc/pacman.conf リポジトリとソフトウェアのアップデート sudo pacman -Syyu 日本語入力の設定 Fcitx、mozcのインストール sudo pacman -S fcitx-im fcitx-mozc ~/.xprofileに追記 export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx AURヘルパーのインストール sudo pacman -S yay ホームディレクトリ配下のディレクトリ名を英語表記に変更 必要なソフトのインストール sudo pacman -S xdg-user-dirs-gtk 変更コマンド LANG=C xdg-user-dirs-gtk-update コマンド実行後、確認のポップアップが出てくるので、アップデートを実行する。</description>
+    </item>
     
     <item>
       <title>使用するOSをUbuntuからManjaroに変更した。</title>
@@ -34,8 +48,7 @@ Arch Linuxのインストールガイドを見てビビっていたので、か�
 Manjaroの公式Wikiにも日本語設定については書かれているんだけど、記載されている内容のパッケージが若干古かった。
 以下は、自分用に日本語設定時に行ったことを記載しておく。
  sudo pacman -S fcitx-im fcitx-mozc ~/.xprofileに以下を記載
-export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx ~/.bashrcに以下を記載
-export GTK_IM_MODULE=fcitx export XMODIFIERS=@im=fcitx export QT_IM_MODULE=fcitx ログアウト、または再起動を行う。
+export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx ログアウト、または再起動を行う。
  参考資料  Manjaro - enjoy the simplicity Manjaro Linux - wiki ArchWiki Manjaro Linux ってなんじゃろ？ | PC-FREEDOM なぜUbuntuではなくManjaro Linuxのほうが最近人気でオススメされるんですか？ - Quora  </description>
     </item>
     

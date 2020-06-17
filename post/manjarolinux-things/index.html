@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=">
 
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css"> 
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -41,6 +41,18 @@
  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
     
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -56,7 +68,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.71.1" />
+ <meta name="generator" content="Hugo 0.72.0" />
         
 
         
@@ -156,18 +168,14 @@ Arch Linuxのインストールガイドを見てビビっていたので、か�
 Manjaroの公式Wikiにも日本語設定については書かれているんだけど、記載されている内容のパッケージが若干古かった。<br>
 以下は、自分用に日本語設定時に行ったことを記載しておく。</p>
 <hr>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo pacman -S fcitx-im fcitx-mozc
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo pacman -S fcitx-im fcitx-mozc
 </code></pre></div><p>~/.xprofileに以下を記載</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ja_JP.UTF-8&#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">export LANG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ja_JP.UTF-8&#34;</span>
 export XMODIFIERS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;@im=fcitx&#34;</span>
 export XMODIFIER<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;@im=fcitx&#34;</span>
 export GTK_IM_MODULE<span style="color:#f92672">=</span>fcitx
 export QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
 export DefaultIMModule<span style="color:#f92672">=</span>fcitx
-</code></pre></div><p>~/.bashrcに以下を記載</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">export GTK_IM_MODULE<span style="color:#f92672">=</span>fcitx
-export XMODIFIERS<span style="color:#f92672">=</span>@im<span style="color:#f92672">=</span>fcitx
-export QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
 </code></pre></div><p>ログアウト、または再起動を行う。</p>
 <hr>
 <h2 id="参考資料">参考資料</h2>
@@ -182,6 +190,28 @@ export QT_IM_MODULE<span style="color:#f92672">=</span>fcitx
 
     
     
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/manjaro-todo/">Manjaro Linuxをインストールしたら行うこと</a></h4>
+    <h5>June 17, 2020</h5>
+    
+<a href="https://takuyaw-w.github.iotags/manjaro"><kbd class="item-tag">Manjaro</kbd></a>
+
+<a href="https://takuyaw-w.github.iotags/linux"><kbd class="item-tag">Linux</kbd></a>
+
+
+
+</div>
+ 
     
 
     
