@@ -20,9 +20,9 @@
       <description>ミラーサーバーの変更 pacmanの出力のカラー化 リポジトリとソフトウェアのアップデート 日本語入力の設定  Fcitx、mozcのインストール ~/.xprofileに追記   AURヘルパーのインストール ホームディレクトリ配下のディレクトリ名を英語表記に変更  必要なソフトのインストール 変更コマンド   フォントのインストール  コード用   参考資料  一週間ぐらい使ってみて、特別不便に感じないので、常用する予定。
 環境構築に関して、いろんなサイトに掲載されているけど、自分用に書いておきます。
 気が向いたときに更新する。
-どこか適当なところでdotfilesとか作って管理する予定&amp;hellip;
 ミラーサーバーの変更 sudo pacman-mirrors --fasttrack &amp;amp;&amp;amp; sudo pacman -Syy pacmanの出力のカラー化 これは気分。
-sudo nano /etc/pacman.conf リポジトリとソフトウェアのアップデート sudo pacman -Syyu 日本語入力の設定 Fcitx、mozcのインストール sudo pacman -S fcitx-im fcitx-mozc ~/.xprofileに追記 export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx AURヘルパーのインストール sudo pacman -S yay ホームディレクトリ配下のディレクトリ名を英語表記に変更 必要なソフトのインストール sudo pacman -S xdg-user-dirs-gtk 変更コマンド LANG=C xdg-user-dirs-gtk-update コマンド実行後、確認のポップアップが出てくるので、アップデートを実行する。</description>
+sudo nano /etc/pacman.conf #Colorとコメントアウトされている箇所があるので、そこを修正。
+- #Color + Color リポジトリとソフトウェアのアップデート sudo pacman -Syyu 日本語入力の設定 Fcitx、mozcのインストール sudo pacman -S fcitx-im fcitx-mozc ~/.xprofileに追記 export LANG=&amp;#34;ja_JP.UTF-8&amp;#34; export XMODIFIERS=&amp;#34;@im=fcitx&amp;#34; export XMODIFIER=&amp;#34;@im=fcitx&amp;#34; export GTK_IM_MODULE=fcitx export QT_IM_MODULE=fcitx export DefaultIMModule=fcitx AURヘルパーのインストール sudo pacman -S yay ホームディレクトリ配下のディレクトリ名を英語表記に変更 必要なソフトのインストール sudo pacman -S xdg-user-dirs-gtk 変更コマンド LANG=C xdg-user-dirs-gtk-update コマンド実行後、確認のポップアップが出てくるので、アップデートを実行する。</description>
     </item>
     
     <item>

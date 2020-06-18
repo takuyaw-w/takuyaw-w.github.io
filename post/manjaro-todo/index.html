@@ -162,13 +162,15 @@
 <p>一週間ぐらい使ってみて、特別不便に感じないので、常用する予定。<br>
 環境構築に関して、いろんなサイトに掲載されているけど、自分用に書いておきます。<br>
 気が向いたときに更新する。</p>
-<p>どこか適当なところでdotfilesとか作って管理する予定&hellip;</p>
 <h2 id="ミラーサーバーの変更">ミラーサーバーの変更</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo pacman-mirrors --fasttrack <span style="color:#f92672">&amp;&amp;</span> sudo pacman -Syy
 </code></pre></div><h2 id="pacmanの出力のカラー化">pacmanの出力のカラー化</h2>
 <p>これは気分。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo nano /etc/pacman.conf
-</code></pre></div><h2 id="リポジトリとソフトウェアのアップデート">リポジトリとソフトウェアのアップデート</h2>
+</code></pre></div><p>#Colorとコメントアウトされている箇所があるので、そこを修正。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-diff" data-lang="diff"><span style="color:#f92672">- #Color
+</span><span style="color:#f92672"></span><span style="color:#a6e22e">+ Color
+</span></code></pre></div><h2 id="リポジトリとソフトウェアのアップデート">リポジトリとソフトウェアのアップデート</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo pacman -Syyu
 </code></pre></div><h2 id="日本語入力の設定">日本語入力の設定</h2>
 <h3 id="fcitxmozcのインストール">Fcitx、mozcのインストール</h3>
