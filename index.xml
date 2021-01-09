@@ -6,11 +6,7 @@
     <description>Recent content on takuya.memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>swapman</title>
       <link>https://takuyaw-w.github.io/project/swapman/</link>
@@ -18,6 +14,25 @@
       
       <guid>https://takuyaw-w.github.io/project/swapman/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Week 2021-01</title>
+      <link>https://takuyaw-w.github.io/post/week_2020-01/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://takuyaw-w.github.io/post/week_2020-01/</guid>
+      <description>生活 子供が生まれて100日が経った。
+お食い初めを行った。
+仕事 12月末に以前いた会社を辞めて、SES専門とした会社に転職した。
+Electronを使用する案件に参画することになった。
+なんとなく縁を感じる…。
+Windowsを開発で使用してるんだけど、普段Linuxを使っているというのもあってなんとなく使いづらさを感じている。
+SSHの設定とか、ちょっとしんどい。
+Phacility社製のツールを初めて使用する。
+ツールの使用感は正直まだ分からない上、使用感とは関係ないんだけどIssueやらが50%以上英語で記載されているので、自分自身のアップデートが必要に感じた。
+My Project Slackのエクスポートデータ読み取って、閲覧できるアプリをElectronとVueを使用して作ってみようかなと考えてる。
+何かしらのOSSに貢献したい。</description>
     </item>
     
     <item>
