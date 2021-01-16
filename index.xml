@@ -6,7 +6,7 @@
     <description>Recent content on takuya.memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>swapman</title>
       <link>https://takuyaw-w.github.io/project/swapman/</link>
@@ -17,11 +17,26 @@
     </item>
     
     <item>
+      <title>Week 2021-02</title>
+      <link>https://takuyaw-w.github.io/post/2021/week_02/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://takuyaw-w.github.io/post/2021/week_02/</guid>
+      <description>生活 ふるさと納税で蟹を購入して食べた。
+量はそんなにだったけど、やっぱり蟹は美味い。
+仕事 Reactアプリケーションの不具合改修を行ってる。
+不具合の特定をするためにChromeのDev Toolsを結構触った。
+参考にした記事を記載しておく。
+経験が薄いというか、業務で触ったことがないので、手探り状態。
+ Google Developers Chrome DevTools の使い方 | murashun.jp  My Project なにもしていない。。。</description>
+    </item>
+    
+    <item>
       <title>Week 2021-01</title>
-      <link>https://takuyaw-w.github.io/post/week_2020-01/</link>
+      <link>https://takuyaw-w.github.io/post/2021/week_01/</link>
       <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://takuyaw-w.github.io/post/week_2020-01/</guid>
+      <guid>https://takuyaw-w.github.io/post/2021/week_01/</guid>
       <description>生活 子供が生まれて100日が経った。
 お食い初めを行った。
 仕事 12月末に以前いた会社を辞めて、SES専門とした会社に転職した。
