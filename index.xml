@@ -6,7 +6,7 @@
     <description>Recent content on takuya.memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://takuyaw-w.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>swapman</title>
       <link>https://takuyaw-w.github.io/project/swapman/</link>
@@ -14,6 +14,20 @@
       
       <guid>https://takuyaw-w.github.io/project/swapman/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Week 2021-03</title>
+      <link>https://takuyaw-w.github.io/post/2021/week_03/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://takuyaw-w.github.io/post/2021/week_03/</guid>
+      <description>生活 特に何もなかった。
+仕事 引き続き、Reactアプリケーションの不具合改修中。
+ブラウザの挙動の違いに苦しめられるという状況。
+My Project 実装力を高めたいなーと思い、自社の人間に訪ねたところ、JAVAの教材を教えてもらった。
+まぁ、好き嫌いせずに食べてみようと思ったらハマってしまった。
+困りごとある方が学びあるので、とりあえずやっていこうと思う。</description>
     </item>
     
     <item>
